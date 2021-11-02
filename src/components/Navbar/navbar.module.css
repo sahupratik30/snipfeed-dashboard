@@ -1,0 +1,89 @@
+.navbar {
+  width: 92%;
+  float: right;
+  height: 8vh;
+  max-height: 6rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid var(--divider-color);
+  border-left: 2px solid var(--divider-color);
+}
+.navbar__left {
+  display: flex;
+  font-size: 1.5rem;
+}
+.navbar__left div {
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  color: var(--light-text-color);
+  font-family: var(--main-font);
+  font-weight: 500;
+  cursor: pointer;
+}
+.navbar__left div.active {
+  color: var(--text-color);
+  border-bottom: 2px solid var(--main-color);
+}
+.navbar__left div:not(.active) svg {
+  fill: var(--light-text-color);
+}
+.navbar__right {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 22%;
+  min-height: 4.5rem;
+  margin-right: 3.5rem;
+  padding: 1rem 0.5rem;
+  border-radius: 2.5rem;
+  -webkit-border-radius: 2.5rem;
+  -moz-border-radius: 2.5rem;
+  -ms-border-radius: 2.5rem;
+  -o-border-radius: 2.5rem;
+  background-color: var(--main-background-color);
+}
+.navbar__right-container {
+  width: 70%;
+}
+.navbar__right-container p {
+  font-family: var(--main-font);
+  font-size: 1.3rem;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  font-weight: 500;
+  margin-left: 1rem;
+}
+.navbar__right button {
+  position: absolute;
+  top: 50%;
+  right: 0.5rem;
+  transform: translateY(-50%);
+  border-radius: 2.5rem;
+  -webkit-border-radius: 2.5rem;
+  -moz-border-radius: 2.5rem;
+  -ms-border-radius: 2.5rem;
+  -o-border-radius: 2.5rem;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  padding: 1.1rem 2rem;
+  border: none;
+  background-color: var(--white-background-color);
+  font-family: var(--main-font);
+  font-weight: 700;
+  color: var(--main-color);
+}
+.navbar__right button:hover {
+  background-color: var(--main-color);
+  color: #fff;
+  cursor: pointer;
+  transition: 0.2s ease;
+  -webkit-transition: 0.2s ease;
+  -moz-transition: 0.2s ease;
+  -ms-transition: 0.2s ease;
+  -o-transition: 0.2s ease;
+}

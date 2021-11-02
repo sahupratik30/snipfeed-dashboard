@@ -1,0 +1,30 @@
+.create__block {
+  width: 36rem;
+  margin: auto;
+  text-align: center;
+  padding: 4rem;
+}
+.create__block img {
+  display: block;
+  max-width: 100%;
+  width: 100%;
+  height: 100%;
+}
+.create__block h4 {
+  font-style: normal;
+  display: block;
+  width: 100%;
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 2.6rem;
+}
+.create__block p {
+  font-style: normal;
+  margin-top: 1rem;
+  display: block;
+  width: 100%;
+  font-size: 1.6rem;
+  font-weight: normal;
+  line-height: 150%;
+  color: var(--light-text-color);
+}

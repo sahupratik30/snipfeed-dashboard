@@ -1,0 +1,26 @@
+.sidebar__link {
+  display: block;
+  text-align: center;
+  margin-top: 0.8rem;
+  border-radius: 0.8rem;
+  -webkit-border-radius: 0.8rem;
+  -moz-border-radius: 0.8rem;
+  -ms-border-radius: 0.8rem;
+  -o-border-radius: 0.8rem;
+  padding: 1.2rem;
+  cursor: pointer;
+}
+.sidebar__link:hover {
+  background-color: var(--grey-background-color);
+}
+.sidebar__link p {
+  font-size: 1.4rem;
+  font-family: var(--main-font);
+  color: var(--light-text-color);
+  font-weight: 500;
+  margin-top: 0.8rem;
+}
+
+.sidebar__link:first-of-type p {
+  color: var(--main-color);
+}
